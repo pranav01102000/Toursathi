@@ -1,4 +1,4 @@
-# Toursathi
+#  TourSathi (Tour Management System Software)
 
 Table of Content:
 1 INTRODUCTION 
@@ -9,6 +9,7 @@ Table of Content:
  1.5 Current Market Survey 
  1.6 Need of the System 
  1.7 Organization of the Report 
+
 2 REQUIREMENT ANALYSIS 
  2.1 Product Perspective 
  2.2 Product Functions 
@@ -16,7 +17,9 @@ Table of Content:
  2.4 Operating Environment 
  2.5 User Documentation 
  2.6 Project Plan  
+
 3 LITERATURE SURVEY 
+
 4 METHODOLOGY 
  4.1 Software Specifications 
  4.2 Hardware Specifications 
@@ -25,9 +28,9 @@ Table of Content:
 
 
 
-Chapter 1: INTRODUCTION Of TourSathi (Tour Management System Software)
+#Chapter 1: INTRODUCTION 
 
-1.1Overview
+##1.1Overview
 
 The Tour Sathi System is a web-based application designed to simplify the process of booking
 hotels, cars, luxury services, and bus transportation for tour purposes. The main objective of
@@ -48,14 +51,14 @@ Overall, the Toursathi System replaces the traditional approach of planning and 
 journey by providing an automated solution. It simplifies the booking process, improves recordkeeping, and promotes responsible tourism practices for a more efficient and enjoyable travel
 experience.
 
-1.2 Purpose
+## 1.2 Purpose
 The purpose of the Tour Sathi project is to develop a web application that serves as a
 comprehensive and user-friendly platform for travel planning and management. The project
 aims to provide individuals with a centralized system that streamlines the process of organizing
 trips, offers real-time information, facilitates collaboration, and allows for personalized travel
 experiences.
 
-1.2.1 Background
+## 1.2.1 Background
 Tour Sathi is developed increasing popularity of travel and the advent of digital solutions have
 created a demand for efficient and organized travel planning tools. Traditional methods, such
 as manual itinerary creation and offline research, often lack organization, accessibility, and realtime information. Inefficient coordination among travel companions, limited customization
@@ -68,7 +71,7 @@ as centralized information, itinerary planning, collaboration tools, real-time u
 resource management capabilities, the project aims to enhance the overall travel experience for
 individuals and groups.
 
-1.3 Benefits
+##1.3 Benefits
 
 The Tour Sathi project provides users with a range of significant benefits. Firstly, it
 saves users' valuable time by offering a centralized platform for travel planning. By
@@ -108,7 +111,7 @@ level of personalization ensures that each traveller can tailor their trip to al
 their specific desires, creating a more enjoyable and memorable travel experience
 overall.
 
-1.4 Objectives
+##1.4 Objectives
 
 
 Develop a user-friendly system: Create a robust and intuitive software system for
@@ -130,7 +133,7 @@ compliance features to ensure accurate and reliable data for financial reporting
 regulatory compliance, and maintaining trust with customers and stakeholders.
 
 
-1.5 Current Market Survey
+##1.5 Current Market Survey
 
 Objective: The objective of this market survey is to gather insights into the online
 jewellery e-commerce industry, including customer preferences, buying behavior, and
@@ -177,7 +180,7 @@ development process to refine the features and user experience of the Tour
 Sathi project. Conduct usability tests and beta testing to validate the usability
 and effectiveness of the system
 
-1.6 Need of the System:
+## 1.6 Need of the System:
 
 The Tour Sathi system arises from the challenges and limitations faced by travellers
 in the traditional methods of travel planning and management. Here is a brief
@@ -207,7 +210,7 @@ as weather conditions, transportation delays, and unexpected events. Offline
 research and plans may not incorporate real-time information, resulting in
 inadequate preparation and potential disruptions during the trip
 
-1.7 Organization of the Report
+##1.7 Organization of the Report
 The material presented in this report is organized into four chapters. Throughout the
 remainder of this report, there is the description of the process used to create the
 application, from research to development. Each chapter describes a specific aspect of
@@ -236,14 +239,14 @@ The key requirements of this project include the following:
 3.Real-time updates
 4.Resource management
 
-Chapter 3. Literature Survey
+#Chapter 3. Literature Survey
 The literature survey would encompass studies on Identify Relevant Keywords:
 Determine the keywords related to travel planning, online travel platforms, and related
 technologies such as PHP, CodeIgniter, Bootstrap, HTML, CSS, and JavaScript, Search
 Academic Databases, Review Existing Literature, Explore Industry Reports and
 Surveys, Analyse User Reviews and Feedback, Consider Relevant Blogs and Websites.
 
-Chapter 4. Methodology:
+#Chapter 4. Methodology:
 The online TourSathi website is developed using the following software and hardware
 specifications:
 Software Specifications: Visual Studio Code,HTML5, CSS3, JavaScript,Bootstrap,PHP, 
@@ -255,7 +258,7 @@ The platform is built on Codeigniter 3 MVT framework with MYSQL as a backend
 database. For frontend technologies HTML, CSS, JavaScript, Bootstrap are used and
 payment integration can be done using third party APIs.
 
-Chapter 5. Modelling and Design:
+#Chapter 5. Modelling and Design:
 During the modelling and design phase of the Tour Sathi project, the gathered
 requirements are translated into a well-defined system design. This involves creating
 system architecture, data models, user interface designs, and various diagrams such as
@@ -263,7 +266,7 @@ use case, sequence, activity, class, and component diagrams. These models and de
 serve as a blueprint for the development process, guiding the implementation of the Tour
 Sathi application.
 
-Chapter 6. Result:
+#Chapter 6. Result:
 The result of the Tour Sathi project is a fully functional web application that simplifies
 travel planning and management. Users can access comprehensive destination
 information, create personalized itineraries, collaborate with travel companions, receive
@@ -273,23 +276,23 @@ personalized and seamless travel experience. The Tour Sathi project successfully
 addresses the challenges faced by travellers and delivers an efficient and enjoyable
 travel planning and management system.
 
-Chapter 2: Requirement Analysis
+#Chapter 2: Requirement Analysis
 
-2.1 Functional Requirement
+##2.1 Functional Requirement
 The system should have user friendly user interface. For adding/updating/saving
 any information, should be there.
 
-2.2 Operational Requirement
+##2.2 Operational Requirement
 Proper validation checking at input time Password is in encrypted format. For each role,
 the authentication (using Email and password) is checked. Generate record according to the
 requirement.
 
-2.3 Design Constraints
+##2.3 Design Constraints
 The design should be such that the UI supports the proposed hardware for the sys- tem.
 The user can navigate to the home screen from anywhere. Each screen should contain the
 link to move anywhere.
 
-2.4 Acceptance Criteria
+##2.4 Acceptance Criteria
 Before accepting the system, it is crucial for the developer to demonstrate that the system works
 properly. This involves conducting thorough testing and showcasing the system's functionality
 through test cases. The developer needs to ensure that all conditions and requirements are met,
@@ -300,11 +303,11 @@ cases instills confidence in the stakeholders and facilitates the acceptance pro
 them to assess the system's performance, validate its compliance with requirements, and make
 an informed decision about accepting the system for deployment and use.
 
-2.5 Performance Requirements:
+##2.5 Performance Requirements:
 The following performance characteristics were taken care of in developing
 the systems.
 
-2.5.1 User friendliness:
+##2.5.1 User friendliness:
 User friendliness is a crucial aspect of any system, and the Tour Sathi project prioritizes it to
 ensure an intuitive and accessible user experience. The system has been designed with
 simplicity and ease of use in mind. Users, including native users, can quickly learn and
@@ -314,7 +317,7 @@ information effortlessly. By emphasizing user friendliness, the Tour Sathi proje
 enhance user satisfaction, minimize learning curves, and maximize the usability of the system
 for a wide range of users
 
-2.5.2 User Satisfaction:
+##2.5.2 User Satisfaction:
 User satisfaction is a key objective of the Tour Sathi project, and several measures have been
 implemented to ensure a positive user experience:
 1. Meeting User Expectations: The system has been developed in a way that aligns with user
@@ -331,7 +334,7 @@ By focusing on user satisfaction, optimizing response times, and implementing ef
 handling, the Tour Sathi project aims to create a system that not only meets users' expectations
 but also provides a seamless and gratifying user experience.
 
-2.5.3 To Validation:
+##2.5.3 To Validation:
 The Tour Sathi project includes comprehensive validations to ensure the accuracy and integrity
 of the system's data and functionality. By conducting thorough testing, the project team ensures
 that all the details and components of the system are validated and function as intended.The
@@ -344,7 +347,7 @@ easily adapt to changes. By implementing thorough testing and creating a flexibl
 architecture, the Tour Sathi project aims to deliver a reliable, validated, and adaptable solution
 for its users.
 
-2.5.4 Portability:
+##2.5.4 Portability:
 Portability is an important aspect of the Tour Sathi project, ensuring that the system can be
 easily transferred and deployed across different platforms and environments. Here are key
 considerations for achieving portability:
@@ -371,8 +374,8 @@ By considering these portability factors, the Tour Sathi project aims to create 
 be seamlessly deployed across various platforms, web browsers, and database environments.
 This ensures that users can access and utilize the Tour Sathi system with ease, regardless of
 their specific technical setup.
-2.2 Product Functions
-2.2.1. Necessary Functions:
+##2.2 Product Functions
+##2.2.1. Necessary Functions:
 The Tour Sathi project offers a range of product functions to enhance travel planning
 and management. Here are some key product functions:
 1. User Registration and Authentication: Users can create accounts on the Tour Sathi
@@ -405,7 +408,7 @@ These product functions aim to simplify travel planning, enhance collaboration, 
 provide users with a streamlined and enjoyable travel experience through the Tour Sathi
 platform.
 
-2.2.2. Desirable Functions:
+##2.2.2. Desirable Functions:
 Virtual Try-On: Implement a virtual try-on feature that allows users to visualize
 how Tours going on and would look on them using augmented reality (AR) or video
 overlay technology.
@@ -423,7 +426,7 @@ Live Chat and Chatbot Support: Offer real-time live chat support or an AIpowered
 chatbot to provide instant assistance and answer customer queries
 regarding Packages, Tours, or general inquiries.
 
-2.2.3 Other Requirements:
+##2.2.3 Other Requirements:
 
 
 Responsive Design: Ensure the website is responsive and compatible with various
@@ -438,7 +441,7 @@ transaction volumes.
 Travel Expense Tracking: The system allows users to track their travel expenses,
 providing a comprehensive overview of costs incurred during the trip.
 
-2.3 User Classes and Characteristics
+##2.3 User Classes and Characteristics
 
 General Users: Characteristics: Visitors who have not registered or logged into the
 Tour Sathi project website. They can browse destinations, search for travel
@@ -459,8 +462,8 @@ analyze user data and behavior, manage destination information and details, over
 collaborations and bookings, handle system configurations, and ensure the overall
 smooth operation of the project.
 
-2.4 Operating Environment
-2.4.1. Software Requirements:
+##2.4 Operating Environment
+##2.4.1. Software Requirements:
 
 
 Operating System : Windows 10
@@ -468,13 +471,13 @@ Browser: Chrome, Internet Explorer or any compatible web browser
 Database: SQLite
 Language/Technology: HTML5, CSS3, JavaScript, Bootstrap, PHP, code igniter .
 
-2.4.2. Hardware Requirements:
+##2.4.2. Hardware Requirements:
 
 RAM: 1GB
 Hard Disk: 10 GB
 Processor: Intel i3 or above
 
-2.6.1 Project Summary
+##2.6.1 Project Summary
 The Toursathi project aims to develop a comprehensive travel planning system that
 simplifies and enhances the process of organizing tours and trips. The system will
 provide users with detailed information about destinations,attractions,
@@ -523,7 +526,7 @@ of any unforeseen events or data loss.
 multiple users to access and work with the data simultaneously, promoting collaboration
 and efficiency.
 
-2.6.2 Project Goals
+##2.6.2 Project Goals
 The goals for the Toursathi project can include the following:
 1. Enhancing Tour Planning: The project aims to develop a system that simplifies and
 enhances the process of planning tours and trips. It should provide users with
@@ -565,7 +568,8 @@ competitive and relevant in the rapidly evolving travel industry.
 These goals collectively aim to create a comprehensive and user-centric travel planning
 system that simplifies the process, enhances user experience, and meets the needs and
 preferences of travellers.
-2.6.3 Project Deliverables
+
+##2.6.3 Project Deliverables
 The project deliverables for the Toursathi project can include the following:
 1. Project Proposal: A detailed project proposal outlining the objectives, scope,
 requirements, and overall plan for the Toursathi project.
@@ -605,7 +609,7 @@ documentation.
 functionalities, features, and benefits of the Toursathi system, as well as highlighting
 the achievements and outcomes of the project.
 
-Chapter 3: Literature Survey
+#Chapter 3: Literature Survey
 The literature survey would encompass studies on Identify Relevant Keywords:
 Determine the keywords related to travel planning, online travel platforms, and related
 technologies such as PHP, CodeIgniter, Bootstrap, HTML, CSS, and JavaScript, Search
@@ -636,14 +640,15 @@ relevance of the information, and synthesize the key findings from the literatur
 to inform your project.
 
 
-Chapter 4: Methodology
-4.1 Software Specifications:
+#Chapter 4: Methodology
+
+##4.1 Software Specifications:
 Programming language: PHP
 Development Tools: Visual Studio Code
 Database: Mysql
 Framework: Codeigniter 3
 
-4.2 Hardware Specifications:
+##4.2 Hardware Specifications:
 
 Processor: Modern multi-core processor (e.g., Intel Core i5 or equivalent).
 RAM: Minimum 8GB or higher for smooth performance during development and
@@ -654,8 +659,8 @@ and deployment.
 Display: Monitor with adequate resolution for comfortable coding and design work
 Operating System: Microsoft Windows 10
 
-4.3 Programming Language:
-4.3.1 PHP Programming Language:
+##4.3 Programming Language:
+##4.3.1 PHP Programming Language:
 PHP is a popular server-side scripting language primarily used for web development. It
 is known for its simplicity, flexibility, and broad range of functionalities. PHP scripts
 are executed on the server, generating dynamic web pages that can interact with
@@ -665,7 +670,7 @@ pages. It has a vast ecosystem of frameworks, libraries, and extensions that sim
 accelerate the development process. With a large community and extensive
 documentation, PHP offers abundant resources and support for developers.
 
-4.3.2 CSS3 and Bootstrap:
+##4.3.2 CSS3 and Bootstrap:
 CSS3 is a language that describes the style of the overall systems design. This language
 is used to style the contents of the HTML5 element of this system. I can easily use this
 to style my project interface that which colour, and position of a content, element. I also
@@ -679,7 +684,7 @@ adding some classes to existing elements in the HTML5-code and altering some CSS
 code such as removing some values for width given in pixels the site was changing
 depending on the width of the window.
 
-4.3.3 JavaScript:
+##4.3.3 JavaScript:
 JavaScript is a versatile programming language commonly used in web development. It
 allows for dynamic and interactive elements on websites, enhancing the user experience.
 With JavaScript, developers can manipulate webpage content, handle events like button
@@ -690,11 +695,11 @@ need for server requests for every action. Its flexibility, wide range of librar
 frameworks, and seamless integration with HTML and CSS make JavaScript a powerful
 tool for creating engaging and interactive web applications.
 
-4.4 Implemented Tools and Platform:
+##4.4 Implemented Tools and Platform:
 Implemented tools and platforms are those that I have used to successfully finish my
 project in time. This also describes which IDE server that I have used in my project.
 
-4.4.1 IDE:
+##4.4.1 IDE:
 Visual Studio Code (VS Code) is a popular and highly regarded integrated development
 environment (IDE) widely used for PHP development, including Codeigniter projects.
 With its lightweight nature and extensive feature set, VS Code offers a seamless and
@@ -711,9 +716,9 @@ development. Overall, Visual Studio Code provides a user-friendly, versatile, an
 productive environment for PHP and Codeigniter developers, making it a preferred
 choice for many in the development community.
 
-4.4.2 Framework: code igniter
+##4.4.2 Framework: code igniter
 
-4.4.3 Database:
+##4.4.3 Database:
          Codeigniter supports SQLite as one of its database back ends, providing a lightweight
 and easy-to-use option for development and testing purposes. SQLite is a server less,
 file-based relational database management system that does not require a separate
@@ -727,7 +732,7 @@ SQLite offers several advantages when used with Codeigniter. First, it is a self
 which means you don't need to install or configure anyexternal database server software. 
 This simplifies the setup process and reduces dependencies.
 
-Conclusion:
+#Conclusion:
 Here we have presented the design of a tours Sathi system that can provide the users with the
 required tourism guidance required anytime and anywhere. This is a combination of smartphone
 and Internet services. The tours Sathi website contributes a reasonable way for the users to
